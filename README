@@ -1,0 +1,8 @@
+WindowManagementDemo
+==================
+
+   This was a little prototype used to determine how feasible a windowing system was for a browser. The goal was to create a simple class that could then be extended into different classes depending on the requirements. This demo has 3 different types of windows, a blank empty window, a simple extension which creates a "Hello World!" window, and a window which wraps an iframe. It works in IE7+, FF2+ and Safari. 
+   
+   Demo: http://windowmanager.live2code.ca
+   
+Credits: This was a quickly developed prototype and as such a large number of images, as well as general style was taken from EyeOS (http://eyeos.com/). EyeOS is a very cool browser based operating system and I suggest you check it out.
