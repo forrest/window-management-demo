@@ -1,0 +1,33 @@
+body {position:relative;}
+div.window-wrapper {position:absolute; top:0px; left:0px; z-index:1; height:0px;}
+
+
+div.window-frame {min-width:100px; min-height:100px; position:absolute; border:1px solid #666; background-color:#f4f4f4;  text-align:left;}
+div.window-frame div.top-bar {background-color:#799fd3; border:1px solid #eee; border-bottom:1px solid #666; height:20px; position:relative; cursor:move; text-align:left;}
+div.window-frame div.top-bar .title {font-size:14px; color:#eee; line-height:21px; padding:0px 5px;}
+
+div.window-frame div.top-bar div.wm_buttons {position:absolute; right:0px; top:0px; width:100px; text-align:right; padding:1px 2px;}
+div.window-frame div.top-bar div.wm_buttons a.wm_button {float:right; height:17px; width:17px;}
+
+div.window-frame div.content-area {position:absolute; top:20px; bottom:0px; left:0px; right:0px;}
+div.window-frame div.resizer {position:absolute; bottom:0px; right:0px; width:10px; height:10px; background-image:url(../images/wm/resizer.gif); cursor:se-resize;}
+div.window-frame div.focus-cover {height:100%; width:100%; background-color:#fff; top:0px; left:0px; position:absolute; cursor:pointer;}
+
+div.focused div.focus-cover {display:none; }
+
+
+div.window-frame div.shadow-right {position:absolute; width:10px; top:10px; bottom:0px; right:0px; margin-right:-10px; background-image:url(../images/wm/shadow-right.png); background-position:repeat-y;}
+div.window-frame div.shadow-bottom {position:absolute; height:10px; left:10px; right:0px; bottom:0px; margin-bottom:-10px; background-image:url(../images/wm/shadow-bottom.png); background-position:repeat-x;}
+div.window-frame div.shadow-br {position:absolute; width:10px; height:10px; bottom:0px; right:0px; margin-bottom:-10px; margin-right:-10px; background-image:url(../images/wm/shadow-br-corner.png);}
+div.window-frame div.shadow-tr {position:absolute; width:10px; height:10px; top:0px; right:0px; margin-right:-10px; background-image:url(../images/wm/shadow-tr-corner.png);}
+div.window-frame div.shadow-bl {position:absolute; width:10px; height:10px; bottom:0px; left:0px; margin-bottom:-10px; background-image:url(../images/wm/shadow-bl-corner.png);}
+
+
+
+div.maximized .shadow {display:none;}
+
+
+
+/*---- iframe window -----------*/
+
+div.window-frame .iframe-window {height:100%; width:100%; border:0;}

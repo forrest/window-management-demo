@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>SmibsOS</title>
+	
+	<link rel="stylesheet" href="stylesheets/reset.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/default.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/windows_manager.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<script src="javascripts/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/effects.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/dragdrop.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/windows_manager.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/iframe_window.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/hello_world_window.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+   
+   <a href='#' onclick="new Window({title:'Finder'}); return false" style='float:right; margin:30px;'><img src="images/folder.png" /></a>
+   <br style='clear:both'/>
+   <a href='#' onclick="new IFrameWindow({title:'Smibs',url:'http://smibs.com',width:'600px',height:'500px'}); return false" style='float:right; margin:30px;'><img src="images/smibs_folder.png" /></a>
+   <br style='clear:both'/>
+   <a href='#' onclick="new HelloWorldWindow({'title':'Hello World'}); return false" style='float:right; margin:30px;'><img src="images/smibs_folder.png" /></a>
+   
+</body>
+</html>
